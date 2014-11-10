@@ -259,7 +259,7 @@ background: none;
   width:100%;
   height:248px;
   float: left;
-  margin-top:5px;
+  #margin-top:5px;
   text-align:center;
   background:#CCCCCC;
 }
@@ -493,7 +493,7 @@ background: none;
 #footer {
   	padding-top:20px;
  	width:100%;
-  	height:150px;
+  	height:90px;
   	float: left;
   	background:#fd9e01;
 }

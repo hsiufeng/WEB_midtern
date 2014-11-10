@@ -258,7 +258,7 @@ background: none;
   width:100%;
   height:248px;
   float: left;
-  margin-top:5px;
+  #margin-top:5px;
   text-align:center;
   background:#CCCCCC;
 }
@@ -456,6 +456,13 @@ background: none;
 	text-decoration: none;
 	color:black;
 }
+.shownews p{
+	width:100px;
+	float:right;
+	text-align: right;
+	font-size: 16px;
+	line-height: 1.7em;
+}
 .content_title div.subject_ann{
 	width:20%;
 	height: 50px;
@@ -509,6 +516,14 @@ background: none;
 	float: left;
 	margin-left: 20%;
 	height: 500px;
+}
+.content_2 div.act p1{
+	width:100px;
+	float:right;
+	padding-top:50px;
+	text-align: right;
+	font-size: 12px;
+	line-height: 1.7em;
 }
 .content_2 div.act .imformation_1{
 	position: relative;
