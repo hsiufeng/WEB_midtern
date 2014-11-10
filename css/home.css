@@ -88,6 +88,7 @@ table {
 #header div.menu1 li {
 	display: inline;
 	padding-left:5px;
+	padding-top:15px;
 	float: left;
 	text-align:center;
 }
@@ -95,7 +96,7 @@ table {
 width: 185px;
 padding: 10px;
 float: left;
-background: url(http://lh6.ggpht.com/_HjB26hkIEK8/S4XlLs9e9VI/AAAAAAAAKAI/p5eJFTAe_uM/Search%20004.gif) no-repeat;
+background: url(file:///C:/Users/Hsiu/table/Downloads/Github/WEB_midtern/images/Search.gif) no-repeat;
 }
 #s {
 width: 160px;
@@ -267,6 +268,7 @@ background: none;
 	margin: 0 auto;
 	display: block;
 	clear: both;
+	#background:#444444;
 }
 .content{
 	border-right: 1px solid #cfcfcf;
@@ -276,6 +278,7 @@ background: none;
 	position: relative;
 	float: left;
 	width: 70%;
+	#background:#444444;
 }
 .content_title{
 	display: block;
@@ -298,6 +301,7 @@ background: none;
 	height: 50px;
 	margin: 20px 0 0 10px;
 	display: block;
+	#background:#222222;
 }
 .content div.subject .NUK{
 	color: #3a2000;
@@ -305,6 +309,7 @@ background: none;
 	float: left;
 	background:url(../images/nuk.png) right bottom no-repeat;
 	font-size: 28px;
+	#background:black;
 }
 
 /*.content div.share{
@@ -421,6 +426,7 @@ background: none;
 	float: left;
 	margin-left: 50px;
 	margin-top: 50px;
+	#background:red;
 
 }
 .content div.shownews2{
@@ -430,6 +436,7 @@ background: none;
 	float: left;
 	margin-left: 70px;
 	margin-top: 50px;
+	#background:yellow;
 }
 .content div.shownews3{
 	position: relative;
@@ -438,6 +445,7 @@ background: none;
 	float: left;
 	margin-left: 70px;
 	margin-top: 50px;
+	#background:green;
 }
 .content div.shownews h3{
 	line-height: 1.7em;
