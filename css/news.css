@@ -50,7 +50,7 @@ table {
 
 
 .wrap{
-	width: 100%;
+	width: 1280px;
 	margin: 0 auto;
 	background-image: url(images/back_2.jpg);
 	background-repeat: repeat; 
@@ -92,6 +92,10 @@ table {
 	padding-top:15px;
 	float: left;
 	text-align:center;
+}
+#header div.menu1 ul li:hover a {
+    color:#d2691e;
+	font-weight:bolder;
 }
 #search {
 width: 185px;
@@ -245,9 +249,9 @@ background: none;
 }
 
 /* 觸動第一層li時，改變背景色 */
-#header div.menu2 ul li:hover, #menu ul li a:hover {
+/*#header div.menu2 ul li:hover, #menu ul li a:hover {
     background:#FFF;
-}
+}*/
 #header div.menu2 ul li:hover a {
     color:#333333;
 }
@@ -256,7 +260,7 @@ background: none;
     background:#dfdfdf;
 }
 #pic {
-  width:100%;
+  width:1280px;
   height:248px;
   float: left;
   #margin-top:5px;
@@ -457,6 +461,10 @@ background: none;
 	padding: 0 0 15px 0;
 	border-bottom: 1px solid #3f3f3f;
 }
+.sidebar ul li:hover a {
+    color:#d2691e;
+	font-weight:bolder;
+}
 .sidebar li a{
 	text-decoration: none;
 	color: black;
@@ -491,15 +499,17 @@ background: none;
 	text-align: center;
 }
 #footer {
-  	padding-top:20px;
- 	width:100%;
-  	height:90px;
+  	#margin-top:50px;
+	padding-top:20px;
+	padding-left:30px;
+ 	width:1248px;
+  	height:110px;
   	float: left;
   	background:#fd9e01;
 }
 #footer h5{
 	padding: 0 0 0 20px;
-	line-height: 18px;
+	line-height: 24px;
 	float: left;
 }
 #footer div.icon{
